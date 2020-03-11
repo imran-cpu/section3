@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> web profile:online shoping </title>
+    <link rel="stylesheet" href="styles/externalstylesheet.css">
+    <style media="screen">
+      input:invalid{
+        border:2px solid black;
+      }
+          input:valid{
+            border:2px solid black;}
+            textarea:invalid{
+              broder:2px dashed red;
+            }
+          textarea:valid{
+            broder:2px solid black;
+          }
+    </style>
+  </head>
+  <body>
+<p>How can we help you</p>
+<form ><fieldset>
+  <labe>name:</label>
+    <input type="text"  maxlength="4" minlength="3" required> <br></br>
+    <select id="simple" name="simple" required>
+      <option selected>topic</option>
+      <option>my account</option>
+      <option>payment</option>
+      <option>Shiping and delivery</option>
+      <option>Return</option>
+
+    </select><br></br>
+    <label>Question</label>
+    <textarea cols="40" rows="4" required ></textarea><br></br>
+      <label> email</lebal>
+        <input type="email" id="email"name="email" multiple required ><br></br>
+        <label>Pnone number: +06</label>
+        <input type="number"maxlength="6" required ><br></br>
+        <button type="submit" >submit</button>
+        <button type="reset" >reset</button>
+</fieldset>
+
+</form>
+  </body>
+</html>
